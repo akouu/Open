@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"  tools:context="akou.open.WhatActivity"
+    android:background="#d6d6d6">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:id="@+id/scrollView1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+
+            <ImageView
+
+                                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"></ImageView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
